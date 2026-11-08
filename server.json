@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.BumiAtlas/vietnam-land-parcels",
+  "title": "Vietnam Land Parcels & Zoning (Thửa đất và quy hoạch)",
+  "description": "Vietnamese land parcels by code, sheet and parcel number or location, with HCMC and Đà Nẵng zoning.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/BumiAtlas/vietnam-land-parcels-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://bumiatlas.com/mcp-docs/vietnam",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bumiatlas.com/mcp/vietnam"
+    }
+  ]
+}
